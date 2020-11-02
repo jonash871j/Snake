@@ -143,7 +143,6 @@
     <ClInclude Include="Main.h" />
     <ClInclude Include="EngineCore.h" />
     <ClInclude Include="Object.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Sound.h" />
     <ClInclude Include="Sprite.h" />
@@ -161,12 +160,6 @@
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="VirtualKeyDefines.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Snake 30122019.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\Pictures\Snake.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
